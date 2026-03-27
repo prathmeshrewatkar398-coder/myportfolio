@@ -1,0 +1,225 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Prathmesh Portfolio</title>
+<style>
+body{ 
+font-family:Arial; 
+margin:0; 
+background:linear-gradient(135deg,#6a11cb,#2575fc); 
+color:#333; 
+} 
+/* Header */ 
+header{ 
+background:white;
+padding:20px; 
+text-align:center; 
+box-shadow:0 2px 10px rgba(0,0,0,0.2); 
+} 
+nav a{ 
+margin:15px; 
+text-decoration:none;
+font-weight:bold; 
+color:#2575fc; 
+} 
+nav a:hover{ 
+color:#6a11cb; 
+} 
+/* Hero Section */
+.hero{ 
+text-align:center; 
+padding:60px; 
+color:white; 
+} 
+.hero h2{ 
+color:white; 
+} 
+.hero p{ 
+color:white; 
+} 
+.hero img{ 
+ width:220px; 
+ height:220px; 
+ border-radius:50%; 
+ border:6px solid white; 
+ object-fit:cover; 
+ box-shadow:0 0 20px rgba(255,255,255,0.8); 
+}
+.hero button{
+padding:10px 20px; 
+border:none; 
+background:white; 
+color:#2575fc; 
+font-weight:bold; 
+border-radius:20px; 
+cursor:pointer; 
+} 
+.hero button:hover{
+background:#f2f2f2; 
+} 
+/* About Section */
+#about p{ 
+ text-align: justify;
+ line-height: 1.7; 
+} 
+/* Card Sections */
+.card{ 
+background:white; 
+margin:30px auto; 
+padding:30px; 
+width:80%; 
+border-radius:10px; 
+box-shadow:0 5px 15px rgba(0,0,0,0.2); 
+} 
+h2{ 
+text-align:center; 
+color:#2575fc; 
+} 
+/* Table */
+table{ 
+width:100%; 
+border-collapse:collapse; 
+} 
+th,td{ 
+padding:10px; 
+border:1px solid #ddd; 
+text-align:center; 
+} 
+th{ 
+background:#2575fc; 
+color:white; 
+} 
+/* Skills */ 
+.skills{ 
+text-align:center; 
+} 
+.skills span{ 
+display:inline-block; 
+background:#2575fc; 
+color:white; 
+padding:8px 15px; 
+margin:8px; 
+border-radius:20px; 
+} 
+/* Projects */ 
+.project-container{
+display:flex; 
+justify-content:space-around; 
+flex-wrap:wrap; 
+} 
+.project{ 
+background:#f4f4f4; 
+padding:20px; 
+margin:10px; 
+width:250px; 
+border-radius:10px; 
+box-shadow:0 2px 10px rgba(0,0,0,0.2); 
+} 
+.project:hover{ 
+transform:scale(1.05); 
+} 
+/* Footer */ 
+footer{ 
+text-align:center;
+background:white ; 
+padding:15px; 
+color:black; 
+}
+</style>
+</head> 
+<body> 
+<header> 
+<h1>My Portfolio</h1>
+<nav> 
+<a href="#about">About</a> 
+<a href="#education">Education</a>
+<a href="#skills">Skills</a> 
+<a href="#projects">Projects</a> 
+<a href="#contact">Contact</a> 
+</nav> 
+</header> 
+<section class="hero">
+<img src="C:\Users\DELL\Documents\prathmesh profile.jpeg" alt="profile">
+<h2>Hello, I'm Prathmesh</h2> 
+<p>Diploma Computer Engineering Student</p> 
+<a href="#projects"> 
+<button>Explore My Work</button>
+</a> 
+</section>
+<section id="about" class="card">
+<h2>About Me</h2> 
+<p style="text-align: justify; line-height:1.7;"> 
+I am a first year Diploma student in Computer Engineering at NIT Polytechnic College with a keen 
+interest in technology and web development. Currently, I am learning the fundamentals of 
+programming, computer systems, and website design using HTML and CSS. I enjoy building simple 
+web pages and exploring how digital technologies work in real-world applications. Through academic 
+projects and practical assignments, I aim to strengthen my problem-solving skills and technical 
+knowledge. My goal is to continuously learn, develop innovative ideas, and grow into a skilled 
+Software developer in the future.
+</p> 
+</section>
+<section id="education" class="card">
+<h2>Education</h2>
+<table> 
+<tr> 
+<th>Year</th> 
+<th>Course</th> 
+<th>Institute</th>
+</tr> 
+<tr> 
+<td>2025</td> 
+<td>Diploma Computer Engineering</td> 
+<td>NIT Polytechnic College</td> 
+</tr> 
+<tr> 
+<td>2024</td> 
+<td>SSC</td>
+<td>Triumph Concept School Sawargaon</td> 
+</tr> 
+<tr> 
+<td>2025</td> 
+<td>MS-CIT</td>
+<td>Vaishali Computer Institute of Technology Sawargaon</td> 
+</tr> 
+</table> 
+</section>
+<section id="skills" class="card">
+<h2>Skills</h2> 
+<div class="skills"> 
+<span>HTML</span> 
+<span>CSS</span>
+<span>Linux Programming</span> 
+<span>C Programming</span> 
+<span>Computer Fundamentals</span> 
+<span>MS Office</span> 
+</div> 
+</section>
+<section id="projects" class="card">
+<h2>Projects</h2> 
+<div class="project-container"> 
+<div class="project"> 
+<h3 align="center">Movies Website</h3> 
+<p align="center">Simple website showing a Latest, Upcoming, Old, Popular Movies details.</p> 
+<a href="https://akb-28.github.io/Microproject-movie-information/">View</a></div> 
+<div class="project"> 
+<h3 align="center">Portfolio Website</h3>
+<p align="center">My personal portfolio built using HTML and CSS.</p>
+</div> 
+<div class="project">
+<h3 align="center">Student Result Page</h3> 
+<p align="center">A webpage displaying student marks using HTML table.</p> 
+</div> 
+</div> 
+</section>
+<section id="contact" class="card">
+<h2>Contact</h2> 
+<p align="center">Email : prathmeshrewatkar398@gmail.com</p> 
+<p align="center">Phone : +91-8412022906</p> 
+<p align="center">Join us :- Instagram - Whatsaap </p> 
+</section>
+<footer> 
+<p>© 2026 Student Portfolio</p>
+</footer> 
+</body> 
+</html>
